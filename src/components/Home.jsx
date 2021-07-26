@@ -8,17 +8,30 @@ function Home() {
           <div class="col-lg-7">
             <img
               class="img-fluid rounded mb-4 mb-lg-0"
-              src="http://placehold.it/900x400"
+              src={require("./home.jpg")}
               alt=""
             />
           </div>
           <div class="col-lg-5">
             <h1 class="font-weight-light">Home</h1>
             <p>
-              Lorem Ipsum is simply dummy text of the printing and typesetting
-              industry. Lorem Ipsum has been the industry's standard dummy text
-              ever since the 1500s, when an unknown printer took a galley of
-              type and scrambled it to make a type specimen book.
+            Les éléments contrôlés lors du passage de votre véhicule concernant l'identification sont les suivants:
+           <ul>
+             <li>PLAQUE CONSTRUCTEUR</li>
+             <li>ÉTAT DE PRÉSENTATION DU VÉHICULE</li>
+             <li>CONDITIONS DE CONTRÔLE</li>
+             <li>DOCUMENTS D’IDENTIFICATION COMPLÉMENTAIRES</li>
+             <li>PLAQUES D’IMMATRICULATION</li>
+             <li>NUMÉRO D’IDENTIFICATION, DE CHÂSSIS OU DE SÉRIE DU VÉHICULE</li>
+             
+             
+             
+             </ul>   
+              
+            
+              
+              
+              
             </p>
           </div>
         </div>
